@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6FAFCC"
+        >
+        <ImageView
+            android:id="@+id/bu"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/img_17"
+            android:tint="#fff"
+
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TEXT"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/img"
+                android:text="denhaebd;/sjlbgf mc"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:id="@+id/tr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:text="Dastlabki 1417–1420-yillarda Ulugʻbek madrasasi bunyod etilib, keyinchalik qarshisiga – maydonning sharqiy qismida Ulugʻbek xonaqosi (1424-yil), shimoliy qismiga Mirzoyi karvonsaroyi, janubiga Alika Koʻkaldosh juma masjidi (1430-yil) bunyod etilgan, yonida esa yogʻochdan xotamkori uslubida Masjidi Muqatta va Abusaid madrasasi qurilgan. 1420–1440-yillarida Registon hashamatli meʼmoriy ansamblga aylangan. XVII asrda Samarqand hokimi Yalangtoʻsh Bahodir vayrona holatdagi Ulugʻbek xonaqosi oʻrniga Sherdor madrasasini (1619–1635/36), Mirzoyi karvonsaroyi oʻrniga Tillakori masjidini (1646/47–1659/60) qurdirgan. Registon maydoni oʻzining rang-barang koshinkori bezaklari; naqshinkori peshtoqlari, ulkan gumbazlari bilan Markaziy Osiyo meʼmorchligining noyob yodgorligi hisoblanadi[2].
+
+Qadimiy Samarqand shahrining rasmiy markazi Registon maydoni boʻlib, bu yerda uchta madrasa qad koʻtargan: Ulugʻbek, Sherdor va Tillakori madrasalari. Registon – qadimiy ilm, taʼlim muassasalari joylashgan joy boʻlib, sharqdagi shahar qurilishi sanʼatining eng koʻzga koʻrinarli namunalaridan biri hisoblanadi. U haqda Temuriylar faxr bilan: „Kim bizning kuch-qudratimizga shubha qilsa, kelib biz qurgan binolarni koʻrsin“, deganlar. 2001-yilda bu uch madrasa UNESCOning butun dunyo yodgorliklari roʻyxatiga kiritilgan.
+
+
+Registon maydoni- tarixda shaharning ilm-fan, siyosat va diniy markazi boʻlgan. „Registon“ soʻzi „qumloq joy“ degan maʼnoni anglatadi. Oʻrta asrlarda hamma katta shaharlarda markazlar „Registon“ deb atalar edi. Shu nomdagi maydonlar Buxoro, Shahrisabz va Toshkentda ham boʻlgan. Samarqanddagi maydon esa Markaziy Osiyodagi eng mahobatli va tahsinga sazovor maydonlardan biri edi. Bu maydonda bir necha ming yillik tarix mujassam. Amir Temur hukmronligi davrida Registon Samarqandning markaziga aylantirildi. Ulugʻbek davrida esa maydon bundan ham muhimroq ahamiyatga ega boʻldi. Zamonaviy Registon ansambli oʻzida Ulugʻbek, Sherdor va Tillakori madrasalarini mujassam etadi.
+
+Registonning janubiy tomonida xalq orasida „Childuxtaron“ deb atalmish xonaqoh va maqbaralar joylashgan edi. Ularni Koʻchkunchixon qurdirgan edi va Tillakori madrasasiga qoʻsh qilib bunyod etilgan edi. U 1904-yilgi zilziladan soʻng xarobaga aylanib, 1910-yili butunlay buzilgan va oʻrni maydon boʻlib qolgan. 100 yil orasida oxirgi koʻrinishini olgan bu Registonni koʻrish ishtiyoqida butun dunyodan sayyohlar tashrif buyurishadi."
+                android:textSize="18dp"
+                android:layout_margin="16dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
